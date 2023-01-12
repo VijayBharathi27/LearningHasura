@@ -1,0 +1,1 @@
+CREATE TABLE "public"."Ninjas" ("name" text NOT NULL, "id" serial NOT NULL, "jutsu" text NOT NULL, "nature" text NOT NULL, PRIMARY KEY ("id") );COMMENT ON TABLE "public"."Ninjas" IS E'Ninjas in the story';
